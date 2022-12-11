@@ -16,23 +16,17 @@
       <link rel="stylesheet" href="style.css">
       <title>Birthday Wish</title>
 </head>
-<body id="icon">
+<body>
 <div>
       <!-- <audio src="https://soundcloud.com/chayandev-bera/happy-birthday-tune?si=1dc63e75019b4d99a13ed6d031acb325&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
             id="my_audio" loop="loop" autoplay="autoplay"></audio> -->
-
-      <audio id="song1" loop autoplay>
-            <source src="image/happy_birthday_tune.mp3" type="audio/mp3">
-      </audio>
-
-      <script>
-            var song1 = document.getElementById("song1");
-            var icon = document.getElementById("icon");
-
-            icon.onclick = function(){
-                  song1.play().loop;
-            }
-      </script>
+<!--       <source src="image/happy_birthday_tune.mp3" type="audio/mp3"> -->
+       <audio src="image/happy_birthday_tune.mp3" type="audio/mp3" id="my_audio" loop="loop"></audio>
+  <script type="text/javascript">
+    window.onload=function(){
+      document.getElementById("my_audio").play();
+    }
+  </script>
 </div>
 
 
