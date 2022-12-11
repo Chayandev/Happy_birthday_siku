@@ -43,8 +43,8 @@ body {
       align-items: center;
 }
 .container .main #moving{
-      color: rgb(255, 85, 0);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/*       color: rgb(255, 85, 0);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
       animation: animat 2s linear infinite;
 }
 @keyframes animat{
