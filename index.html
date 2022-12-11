@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="style.css">
       <title>Birthday Wish</title>
 </head>
-<body>
+<body id="icon">
 <div>
       <!-- <audio src="https://soundcloud.com/chayandev-bera/happy-birthday-tune?si=1dc63e75019b4d99a13ed6d031acb325&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
             id="my_audio" loop="loop" autoplay="autoplay"></audio> -->
@@ -25,16 +25,21 @@
             <source src="image/happy_birthday_tune.mp3" type="audio/mp3">
       </audio>
 
-      </div>
+      <script>
+            var song1 = document.getElementById("song1");
+            var icon = document.getElementById("icon");
 
-
-
+            icon.onclick = function(){
+                  song1.play().loop;
+            }
+      </script>
+</div>
 <div class="container">
       <div class="ballon"><img src="image/ballon.gif" class="love_ballon" alt="Error">
             <img src="image/dance.webp" class="dance" alt="Error">
       </div>
       <div class="main">
-            <h1 class="icon" id="moving">🔔</h1>
+            <h1id="moving">🔔 Click Me!</h1>
             <span>🎉<h2>Happpy Birthday 'Siku'</h2>🎊</span>
             <h1>🎂🍰</h1>
             <img src="image/siku_1.jpg" alt="" class="profile">
@@ -89,14 +94,7 @@
       </p>
       <div class="copy-right">Copyright &#xA9; Chayandev Bera</div>
 </footer>
-    <script>
-            var song1 = document.getElementById("song1");
-            var icon = document.getElementsByClassName("icon");
-
-            icon.onclick = function(){
-                  song1.play().loop;
-            }
-      </script>
+   
 </body>
 
 </html>
