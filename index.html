@@ -16,12 +16,26 @@
       <link rel="stylesheet" href="style.css">
       <title>Birthday Wish</title>
 </head>
+<body id="icon">
+<div>
+      <!-- <audio src="https://soundcloud.com/chayandev-bera/happy-birthday-tune?si=1dc63e75019b4d99a13ed6d031acb325&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            id="my_audio" loop="loop" autoplay="autoplay"></audio> -->
 
-<body>
-      <audio src="https://soundcloud.com/chayandev-bera/happy-birthday-tune?si=1dc63e75019b4d99a13ed6d031acb325&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="my_audio" loop="loop" autoplay="autoplay"></audio>
-</body>
+      <audio id="song1" loop autoplay>
+            <source src="image/happy_birthday_tune.mp3" type="audio/mp3">
+      </audio>
 
-</html>
+      <script>
+            var song1 = document.getElementById("song1");
+            var icon = document.getElementById("icon");
+
+            icon.onclick = function(){
+                  song1.play().loop;
+            }
+      </script>
+</div>
+
+
 <div class="container">
       <div class="ballon"><img src="image/ballon.gif" class="love_ballon" alt="Error">
             <img src="image/dance.webp" class="dance" alt="Error">
@@ -77,7 +91,7 @@
 <footer>
       <h2>Many Many Happy Returns of The Day Bruah! 💓 </h2>
       <p>I am & will be always a Good wisher for you , Hope for Sucessfull & happy life.
-            Enjoy Your day, but dont forget to give treat (Isabr Beriyani pakki khaunga tere payse se jab gahr jaunga
+            Enjoy Your day, but dont forget to give treat (Isbar Beriyani pakki khaunga tere payse se jab gahr jaunga
             😜)
       </p>
       <div class="copy-right">Copyright &#xA9; Chayandev Bera</div>
