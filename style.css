@@ -309,11 +309,11 @@ footer .copy-right{
 } 
 
 
- @media (min-width: 400px) {
+/*  @media (min-width: 400px) {
       .Siku_photos {
             grid-template-columns: repeat(2, 1fr);
       }
-}
+} */
 
  @media (min-width: 455px ) and (max-width:700px) {
       .container .ballon .love_ballon {
