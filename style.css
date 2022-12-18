@@ -267,6 +267,18 @@ footer .copy-right{
       padding: 5px;
       text-align: center;
 }
+footer #pdf-gift{
+      color: rgb(255, 129, 115);
+      font-style: oblique;
+      font-weight: 700;
+}
+footer #pdf-gift span{
+      color: rgb(133, 80, 255);
+      font-size: 1.7rem;
+}
+footer #pdf-gift a{
+      animation: click 4s linear infinite;
+}
 @media (min-width:120px)  and (max-width:370px){
       .Siku_photos {
             grid-template-columns: repeat(2, 1fr);
